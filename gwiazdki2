@@ -1,0 +1,6 @@
+ileLinii=int(raw_input("W ilu liniach maja pojawic sie gwiazdki?: "))
+ileGwiazdek=int(raw_input("Ile gwiazdek w linii?: "))
+for linia in range(0, ileLinii):
+    for gwiazdka in range(0,ileGwiazdek):
+        print "*",
+    print

@@ -1,0 +1,4 @@
+# -*- coding: cp1250 -*-
+StopnieFahrenheita = input ("Podaj liczbê stopni Fahreheita ? : ")
+StopnieCelsjusza = 5.0/9*(StopnieFahrenheita - 32)
+print "Dziœ jest: ", StopnieCelsjusza, "stopni Celsjusza"

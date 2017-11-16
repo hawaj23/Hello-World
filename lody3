@@ -1,0 +1,6 @@
+# -*- coding: cp1250 -*-
+import easygui
+smak = easygui.enterbox ("Jaki jest twój ulubiony smak lodów?",
+                         default = 'Waniliowe')
+                            
+easygui.msgbox ("Wybra³eœ " + smak)

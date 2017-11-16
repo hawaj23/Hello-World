@@ -1,0 +1,7 @@
+listaImion = []
+print "Wprowadz piec imion po kazdym nacisnij enter: "
+for i in range(5):
+    imie = raw_input()
+    listaImion.append(imie)
+nowsza = sorted(listaImion)
+print "Oto imiona: ", listaImion , " i posortowane: ", nowsza

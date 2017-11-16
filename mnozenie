@@ -1,0 +1,8 @@
+liczba= int(raw_input("Tabliczke mnozenia której liczby chcialbys wyswietlic?: "))
+zakres= int(raw_input("Jak dluga ma byc tabliczka mnozenia?: "))
+print "Oto tabliczka mnozenia:"
+i= 1
+while i <= zakres:
+    print liczba, "razy", i, "=", liczba * i
+    i = i + 1
+    

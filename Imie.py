@@ -1,0 +1,4 @@
+# -*- coding: cp1250 -*-
+print "Wprowadz swoje imiê: "
+nazwa = raw_input()
+print "Czeœæ,", nazwa ,",jak siê masz?"

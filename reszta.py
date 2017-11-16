@@ -1,0 +1,12 @@
+# -*- coding: cp1250 -*-
+def Reszta(grosz50,grosz20,grosz10, grosz5):
+    suma = 0.5 * grosz50 + 0.2 * grosz20 + 0.1 * grosz10 + 0.05 * grosz5
+    return suma
+
+grosz50 = int(raw_input("Proszê wprowadziæ liczbê 50 groszówek: "))
+grosz20 = int(raw_input("Proszê wprowadziæ liczbê 20 groszówek: "))
+grosz10 = int(raw_input("Proszê wprowadziæ liczbê 10 groszówek: "))
+grosz5 = int(raw_input("Proszê wprowadziæ liczbê 5 groszówek: "))
+
+monety = Reszta(grosz50, grosz20, grosz10, grosz5)
+print "Twoje oszczêdnoœci wynosz¹: ", monety , "PLN"

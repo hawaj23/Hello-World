@@ -1,0 +1,3 @@
+def obliczBrutto(cenaNetto, stawka_podatku):
+    cenaBrutto = cenaNetto + (cenaNetto * stawka_podatku)
+    return cenaBrutto
